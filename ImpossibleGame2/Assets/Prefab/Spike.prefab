@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3832429386435004358}
   - component: {fileID: 5817323822008593907}
   - component: {fileID: 2404388958451546674}
-  - component: {fileID: 6088253914229134246}
+  - component: {fileID: 3530854986023637750}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Untagged
@@ -118,8 +118,8 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 908f58780451218438cd4c469ae58010, type: 2}
---- !u!61 &6088253914229134246
-BoxCollider2D:
+--- !u!60 &3530854986023637750
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -131,7 +131,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.21133333}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.28866667}
@@ -141,6 +141,8 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 0.5773587}
+      - {x: -0.5, y: -0.28866667}
+      - {x: 0.5, y: -0.28866667}
